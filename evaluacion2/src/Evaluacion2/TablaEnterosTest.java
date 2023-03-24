@@ -21,9 +21,18 @@ class TablaEnterosTest {
 		assertEquals(null, null);
 	}
 	@Test
-	void testSumaTabla() {
+	void testMayorTabla() {
+		int maxEsperado=-999;
+		int maxResultado=-1000;
 		
+		assertEquals(maxResultado, maxEsperado,"ERROR");
+	}
+	@Test
+	void testPosicionTabla(int n) {
 		
+		int iResultado=-1;
+		int iEsperado=0;
 		
+		assertEquals(iResultado, iEsperado, "ERROR");
 	}
 }
