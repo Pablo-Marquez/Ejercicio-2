@@ -1,5 +1,12 @@
 package Evaluacion2;
 
+/**
+ * @since 24/03/2023
+ * @author Pablo Marquez Valiente
+ * @version 24/03/2023
+ * @category Examen
+ * {@link https://github.com/Pablo-Marquez/Ejercicio-2.git} 
+ */
 public class TablaEnteros {
 	
 	private Integer[] tabla;
